@@ -1,3 +1,5 @@
+![Semaphr logo](https://semaphr.com/favicon.svg "semaphr logo")
+
 # Semaphr
 
 [Semaphr](https://semaphr.com) helps you manage your mobile apps.
@@ -20,27 +22,11 @@
 - Go to **Settings -> Integrations** add the details for your app and follow the instructions.
 
 <br />
-
-### Usage in the app
-
-To use the SDK, you simply have to add your API key. 
-
-The API key can be found on [our website](https://semaphr.com) in the  **Settings -> Integrations** section. Click **Copy to Clipboard** and paste it into the code, where you initialize the SDK.
-
-### Adding your first message
-
-```diff
-- Once the SDK is added, it's important to lunch the app, so that the current version of the app can be inferred by our systems.
-```
-
-After an initial startup, you can go to **Messages** and add a new message, once it's published, the message will be displayed every time the app is **brought to the foreground** by your users.
-
-<br />
 <br />
 
-## Examples
+## Developer documentation
 
-You can find examples of how to integrate the codebase using [SPM here](https://github.com/semaphr/ios-examples/tree/main/SPM/SemaphrExample) and [COCOAPODS here](https://github.com/semaphr/ios-examples/tree/main/COCOAPODS/SemaphrExample).
+To integrate the SDKs in your mobile apps, please follow the integration details for each platform [iOS](https://semaphr.com](https://github.com/semaphr/ios), [Android](https://github.com/semaphr/android), or [React Native](https://github.com/semaphr/react-native).
 
 <br />
 <br />
@@ -49,15 +35,51 @@ You can find examples of how to integrate the codebase using [SPM here](https://
 
 <br />
 
-### How do I support multiple environments on the SDK?
+### Are there any costs involved?
 
-You can support multiple environments by creating multiple apps and using separate API keys for each environment.
+Semaphr is free and it will remain free for startups and small companies, you can add as many apps as you want, no need to add a credit card. For enterprises, with a large amount of users, please reach out to our support for individual plans and features.
 
 <br />
 
-### Are the messages displayed instantly?
+### How can I use this service if I have multiple environments?
 
-The messages are only displayed if the user brings the app to the foreground, otherwise, they can continue to use it. This is by design, as otherwise, the SDK will have to query the status periodically. **This functionality is only offered with our enterprise plans.**
+You can simply create a new app, with a new API key for each environment.
+
+<br />
+
+### When will the users see the message?
+
+The messages will be shown when the user brings the app to the foreground. Real-time alerts are available in our enterprise plan.
+
+<br />
+
+### Is my data secure?
+
+All the transmitted data is secured, we don't store any details about the users, we only care about the app version they run on their device.
+
+<br />
+
+### Can you block only certain versions of the app?
+
+With Semaphr, you can block certain versions of your app, so that your users have to update to the latest version, in this way, you can migrate users from older versions of your APIs and apps towards new ones.
+
+<br />
+
+### Does Semaphr work for all my older versions?
+
+Semaphr only works for apps that have integrated the SDK. Previous versions can not be managed.
+
+<br />
+
+### How long does it take to integrate the Semaphr in my app?
+
+To integrate Sempahr, you need a maximum of 10 minutes. It's a very simple process detailed in our documentation.
+
+<br />
+
+### Does it work on React Native?
+
+Yes, you can configure the SDK either native (iOS and Android) or in React.
 
 <br />
 
