@@ -26,7 +26,7 @@
 
 ## Developer documentation
 
-To integrate the SDKs in your mobile apps, please follow the integration details for each platform [iOS](https://semaphr.com](https://github.com/semaphr/ios), [Android](https://github.com/semaphr/android), or [React Native](https://github.com/semaphr/react-native).
+To integrate the SDKs in your mobile apps, please follow the integration details for each platform [iOS](https://github.com/semaphr/ios), [Android](https://github.com/semaphr/android), or [React Native](https://github.com/semaphr/react-native).
 
 <br />
 <br />
