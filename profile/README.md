@@ -1,4 +1,3 @@
-![Semaphr logo](https://semaphr.com/favicon.svg "semaphr logo")
 
 # Semaphr
 
